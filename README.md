@@ -1,7 +1,7 @@
-🏟️ SportBoard
+SportBoard
 SportBoard es una maqueta funcional de una aplicación web de gestión deportiva, desarrollada con HTML, CSS y JavaScript. La interfaz ha sido inspirada en los estilos modernos generados por Google Stitch para ofrecer una experiencia visual limpia y atractiva.
 
-📁 Estructura del proyecto
+Estructura del proyecto
 bash
 Copiar
 Editar
@@ -22,7 +22,8 @@ SportBoard/
 │   └── teams.html             # Gestión de equipos y torneos
 │
 └── index.html                 # Archivo de entrada que carga login.html
-🚀 ¿Qué hace este proyecto?
+
+¿Qué hace este proyecto?
 Simula un flujo de navegación completo:
 
 El usuario inicia en login.html
@@ -45,12 +46,12 @@ Estilo modular:
 
 Se usó un archivo CSS central (style.css) para manejar todos los componentes de UI
 
-🔑 Credenciales de prueba
+Credenciales de prueba
 Correo: admin@sport.com
 
 Contraseña: 1234
 
-🧪 ¿Cómo ejecutar?
+¿Cómo ejecutar?
 Clona o descarga el proyecto
 
 Abre index.html en tu navegador
@@ -59,7 +60,7 @@ Inicia sesión con las credenciales indicadas
 
 Navega por las secciones: Dashboard, Equipos, Calendario, Perfil, Configuración
 
-🛠️ Tecnologías utilizadas
+Tecnologías utilizadas
 HTML5
 
 CSS3
@@ -67,3 +68,5 @@ CSS3
 JavaScript (puro)
 
 Diseño inspirado por Google Stitch
+![Captura de pantalla 2025-06-19 194853](https://github.com/user-attachments/assets/5335ce3c-1850-4387-afe4-2afca01701e7)
+
