@@ -16,8 +16,28 @@
   <header class="w-full text-center py-4 bg-white shadow">
     <h1 class="text-2xl font-bold text-gray-800">SportBoard - Calendario de Partidos</h1>
   </header>
-  <main class="p-6 text-center">
-    <p class="text-gray-600 text-lg">Aquí va el contenido de la interfaz <strong>Calendario de Partidos</strong>.</p>
-  </main>
+  <div class="navbar">
+    <h2>SportBoard</h2>
+    <nav>
+      <a href="dashboard.html">Inicio</a>
+      <a href="teams.html">Equipos</a>
+      <a href="calendar.html">Calendario</a>
+      <a href="profile.html">Perfil</a>
+      <a href="settings.html">Configuración</a>
+      <a href="../index.html" onclick="logout()">Salir</a>
+    </nav>
+  </div>
+  <div class="main-content">
+    <h1>Calendario de Partidos</h1>
+    <div id="calendar" class="calendar-modern"></div>
+  </div>
+  <script>
+    // Calendario simple (puedes reemplazar por uno más avanzado)
+    document.addEventListener('DOMContentLoaded', function() {
+      const calendar = document.getElementById('calendar');
+      calendar.innerHTML = '<p style="color:#666">Próximos partidos: <br> 21/06 - Equipo A vs Equipo B <br> 23/06 - Equipo C vs Equipo D</p>';
+    });
+  </script>
 </body>
+
 </html>
